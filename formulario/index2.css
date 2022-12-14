@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    font-family:'calibir';
+    border-style: solid rgb(252, 5, 5);
+    justify-content: center;
+    }
+
+.recuadros{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 1px;
+    margin-bottom: 16px;
+    border: none ;
+    resize: none;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    font-family:'calibir';
+}
+
+.button{
+    background-color: rgb(255, 253, 253);
+    padding: 12px;
+    width: 200px;
+    font-weight: 700;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: #a80e09;
+    padding: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+    font-style:initial;
+    font-weight: 700;
+}
+ 
+.button-container :hover{
+    background-color: greenyellow;
+}
+
+#arrow{
+    color: gray;
+}
+
+#arrow :hover{
+    color: blue;
+}
