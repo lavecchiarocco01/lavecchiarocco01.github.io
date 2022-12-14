@@ -10,16 +10,19 @@ if (edad >=18){
 
 // ----------------Funcion------------------------------------------------
 
-var numero = prompt("introduce un numero entero");
+var numero = prompt("Cuanto es 11x11");
 var resultado = parimpar(numero);
-alert("El numero" + numero+ "es" +resultado);
+alert(" La respuesta " + numero + resultado);
 function parimpar(numero){
-    if(numero %2==0){
-        return "par";
+    if(numero == 121){
+        return " es correcta Felicitaciones!! Ganaste un cupon para utilizar en la tienda ";
     }
     else{
-        return "impar"
+        return " es incorrecta, lo sentimos no obtuviste ningun premio "
     }
 }
+
+
+
 
 
